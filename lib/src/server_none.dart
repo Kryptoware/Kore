@@ -1,0 +1,1 @@
+Future<void> kStartServer() async => throw UnsupportedError('Only web support');
