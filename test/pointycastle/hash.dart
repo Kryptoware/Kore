@@ -12,8 +12,8 @@ void main() {
     Stopwatch stopwatch = Stopwatch()..start();
     test('encode', () {
       expect(hash == hex.encode(pcSha256(kToUInt8List(text))), isTrue);
+      print('Elapsed time: ${stopwatch.elapsed}');
     });
-    print('Elapsed time: ${stopwatch.elapsed}');
   });
 }
 

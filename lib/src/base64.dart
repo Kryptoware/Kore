@@ -1,3 +1,3 @@
 import 'dart:convert' as convert;
 
-final convert.Codec<String, String> base64 = convert.utf8.fuse(convert.base64);
+final convert.Codec<String, String> kBase64 = convert.utf8.fuse(convert.base64);
